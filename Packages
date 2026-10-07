@@ -3693,6 +3693,46 @@ Depiction: https://chariz.com/buy/airaw
 Icon: https://qi-ting-zhang.github.io/sileo/images/icon/airaw.png
 Name: Airaw
 
+Package: jp.dcsyhi.airaw.splitnative
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 442
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
+Filename: debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64e.deb
+Size: 29160
+MD5sum: 72affe69d175de306a7ec1efc159c09b
+SHA1: 768e518738464e366ea4602ebe9960f84a2c2e2e
+SHA256: 365615c42649dcb7b88d0cbd4eb6a3b80775cd804348a1e0b9f04e72f1f3cf44
+Section: 你的iPhone不止于此
+Description: Split View for native CarPlay apps (Maps, Music, …). Requires Airaw and iOS 16+. Settings open from Airaw only.
+Tag: cydia::commercial, compatible_min::ios16.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/buy/airaw-native
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/airaw.png
+Name: Airaw Split View Native
+
+Package: jp.dcsyhi.airaw.splitstandard
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>=16.0), jp.dcsyhi.airaw (>=1.7.0)
+Filename: debs/jp.dcsyhi.airaw.splitstandard_1.0_iphoneos-arm64e.deb
+Size: 21916
+MD5sum: 18320f1621a8e22883a5ca2694495ecc
+SHA1: 3f2a82c5f8de04f199d33780a92c835777fb48ba
+SHA256: 78b7c9e1289999d8210e3722e1a0315c2341861380d6034631c8221c7ac24052
+Section: 你的iPhone不止于此
+Description: Split View for non-native CarPlay apps (CarCast / CarBridge). Requires Airaw and iOS 16+. Settings open from Airaw only.
+Tag: cydia::commercial, compatible_min::ios16.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/buy/airaw-standard
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/airaw.png
+Name: Airaw Split View Standard
+
 Package: jp.dcsyhi.carcast
 Version: 1.2
 Architecture: iphoneos-arm64e
